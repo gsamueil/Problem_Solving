@@ -39,7 +39,7 @@ class Solution(object):
 
         for x in nums:
             c += x #index +element of list c= c+x  ----> new c= 0+3  and next loop c=3 then new c =3+1=4 and so on 
-            print(c)
+            # print(c)
             ans.append(c)
         return ans
 test = Solution()
