@@ -47,3 +47,5 @@ class Solution(object):
             mapST[c1] = c2
             mapTS[c2] = c1
         return True
+test_case = Solution()
+print(test_case.isIsomorphic("foo", "bar"))
