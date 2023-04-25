@@ -42,6 +42,8 @@ Note: This question is the same as 1991: https://leetcode.com/problems/find-the-
 
 
 """
+
+
 class Solution(object):
     def pivotIndex(self, nums):
         """
@@ -50,15 +52,21 @@ class Solution(object):
         """
         perfex_sum = 0
         total_sum = 0
-        
+
         for num in nums:
             total_sum += num
-        
+        print(total_sum)
+
         for i in range(len(nums)):
-            right_sum =  total_sum- nums[i] -  perfex_sum
-            if (right_sum == perfex_sum):
+            right_sum = total_sum - nums[i] - perfex_sum
+            print(
+                right_sum
+            )  # every time sum the nume 27 -20 17 11 till reach the index whos equal the right summion
+            if right_sum == perfex_sum:
                 return i
             perfex_sum += nums[i]
         return -1
+
+
 test = Solution()
-print(test.pivotIndex([1,7,3,6,5,6]))
+print(test.pivotIndex([1, 7, 3, 6, 5, 6]))
