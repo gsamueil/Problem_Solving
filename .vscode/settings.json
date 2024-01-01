@@ -32,7 +32,6 @@
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
     "zenMode.hideLineNumbers": false,
-    "zenMode.hideTabs": false,
     "editor.minimap.enabled": false,
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.editor": "json",
