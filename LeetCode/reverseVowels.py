@@ -39,7 +39,8 @@ class Solution(object):
                 j-=1
                 continue
             slist[i],slist[j]=slist[j],slist[i]
-            i   +=1
-            j +=1
+            i +=1
+            j -=1
         return "".join(slist)
+        
         
