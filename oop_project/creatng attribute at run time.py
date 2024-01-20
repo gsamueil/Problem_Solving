@@ -27,3 +27,7 @@ def work_math(self):
 print(math_teacher.regisrer_do_work(work_math))
 print(math_teacher.__dict__)
 print(math_teacher.do_work())
+
+
+
+

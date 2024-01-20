@@ -11,7 +11,6 @@
 * Function
 ## Data Structures:
 ********************************************************
-
 * Dictionary(HashMap)
 * HashSet
 * Array
