@@ -8,7 +8,7 @@
     "debug.console.fontSize": 16,
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.fontWeight": "600",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "python.pythonPath": "/venv/Scripts/",
     "python.formatting.provider": "black",
     "editor.formatOnSave": true,
